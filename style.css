@@ -1,12 +1,19 @@
 h1 h2 h3{
   font-family: Montserrat;
+  position: center;
+}
+h1 {
+
 }
 .container {
   background-color: grey;
 }
-form {
+/* form {
   position: absolute;
   color: pink;
   padding: 2px;
-  
+
+} */
+.button1 {
+  position: absolute;
 }
