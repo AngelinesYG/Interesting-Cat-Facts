@@ -2,13 +2,19 @@ body {
 /* display: flex; */
 background-color: lightgrey;
 background-size: cover;
+background-size: contain;
+max-width: 500px;
 }
-
 
 h1 h2 h3{
   font-family: Montserrat;
   position: center;
   display: inline;
+  atimation-timing-function: ease;
+}
+h1 {
+  fonst-size: 10px;
+  transition-timing-function: linear;
 }
 /* .main-image img {
   postion: relative;
@@ -16,6 +22,11 @@ h1 h2 h3{
 } */
 .carousel-images img {
   display: none;
+  border-radius: 10px;
+  padding: 5px;
+  max-width: 500px;
+  height: auto;
+  align: center;
   /* background-size: cover; */
 }
 
@@ -23,7 +34,10 @@ h1 h2 h3{
 text-align: center;
 color: red;
 text-shadow: 2px 1px black;
-
+display:
+}
+.fact {
+  position: absolute;
 }
 .container {
 display: flex;
@@ -37,13 +51,56 @@ flex-direction: column;
   padding: 2px;
 } */
 .button1 {
-  display: flex;
-  /* position: absolute; */
+
+  border-radius: 40px;
   align-self: center;
   align-content: center;
+  padding: 40px;
+  margin: 80px;
+  background: slateblue;
+  font-size: 25px;
+  font-weight: 300;
+  /* background: white; */
+  animation-name: rainbow-change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  transition: transform 250ms, opacity 400ms;
+}
+.button1:hover {
+  transiton: transform 125ms;
+  transform: translateY(-20px);
+}
+/* .animation {
+  background: white;
+  animation-name: rainbow-change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+} */
 
-  /* background-color: yellow; */
-  /* height: 30px; */
-  padding: 20px;
-  color: #c299ff;
+@keyframes rainbow {
+  /* 0% { background: black; } */
+  10% { background: crimson; }
+  25% { background: hotpink;}
+  30% { background: coral;}
+  40% { background: lightyellow; }
+  50% { background: palegreen; }
+  60% { background: mediumaquamarine; }
+  75% { background: steelblue; }
+  80% { background: darkviolet;}
+  /* 90% { background: black; } */
+  /* 100% { background: ghostwhite; } */
+}
+
+@keyframes rainbow-change {
+  /* 0% {background: black; } */
+  10% {background: crimson; }
+  25% {background: hotpink; }
+  30% {background: coral;}
+  40% {background: lightyellow;}
+  50% {background: palegreen; }
+  60% {background: mediumaquamarine; }
+  75% {background: steelblue; }
+  80% {background: darkviolet;}
+  /* 90% {background: black; }
+  100% {background: ghostwhite; } */
 }
