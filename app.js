@@ -20,7 +20,7 @@ $(() => { //on load begins
         //
         let $userInput = $('input[type="click"]').val()//establishes what the interacton from the user will do and refers back to event listener that says that the interaction will be a click.
         // let $data = $(event.target).val('<div>')
-        const $data = $('<div>')//sets the data from the API as a div in order to appear on the page.
+        const $data = $('<div>')//sets the data from the API as a div in order to appear on the page. This div holds the text <p> inside of it.
 
           if (currentImgIndex < lastIndex) {
             currentImgIndex++;//loop for the images. It says if the current
@@ -44,7 +44,7 @@ $(() => { //on load begins
           // $('body').append($data)//carousel to body
 
         // }//closing loop
-        $('body').append($data)//appends data to the body.
+        $('.body1').prepend($data)//appends data to the body.
         console.log(data)
 
       },//closing data function

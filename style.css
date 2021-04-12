@@ -6,20 +6,31 @@ background-size: contain;
 max-width: 500px;
 }
 
-h1 h2 h3{
+h1 h2 {
   font-family: Montserrat;
+  font-size: 20vw;
   position: center;
   display: inline;
-  atimation-timing-function: ease;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%) skew(10deg) rotate(-10deg);
+  text-rendering: optimizeLegibility;
+  font-weight: 900;
+  text-shadow: 1px 4px 6px $bg, 0 0 0 #66303a, 1px 4px 6px $bg;
+  white-space: nowrap;
+  letter-spacing: 5em;
+  display: inline-block;
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40em;
+  margin: 0;
 }
+
 h1 {
-  fonst-size: 10px;
-  transition-timing-function: linear;
+  fonst-size: 40px;
 }
-/* .main-image img {
-  postion: relative;
-  display:block;
-} */
 .carousel-images img {
   display: none;
   border-radius: 10px;
@@ -27,39 +38,54 @@ h1 {
   max-width: 500px;
   height: auto;
   align: center;
+  margin-top: auto;
   /* background-size: cover; */
 }
 
 .headerText {
-text-align: center;
-color: red;
-text-shadow: 2px 1px black;
-display:
+  text-align: center;
+  color: red;
+  text-shadow: 2px 1px black;
 }
+/* span {
+  font: 700 4em/1 "Montserrat"
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px red;
+  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-animation: aitf 80s linear infinite;
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+} */
+
 .fact {
   position: absolute;
+  margin-bottom: 900px;
+  margin-left: 60px;
+  max-width: 400px;
+  background-color: #e6ccff;
+  border-radius: 8px;
+  border: 2px, solid: #e6ccff;
+  align-items: center;
 }
 .container {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   /* background-color: lightgrey; */
 
 }
-/* form {
-  position: absolute;
-  color: pink;
-  padding: 2px;
-} */
 .button1 {
-
   border-radius: 40px;
   align-self: center;
   align-content: center;
-  padding: 40px;
-  margin: 80px;
+  padding: 30px;
+  margin: 60px;
   background: slateblue;
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 200;
   /* background: white; */
   animation-name: rainbow-change;
   animation-duration: 6s;
@@ -67,15 +93,23 @@ flex-direction: column;
   transition: transform 250ms, opacity 400ms;
 }
 .button1:hover {
-  transiton: transform 125ms;
+  /* transiton: transform 125ms; */
   transform: translateY(-20px);
 }
-/* .animation {
-  background: white;
-  animation-name: rainbow-change;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-} */
+.animation1{
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  /* animation-name: scale .2 .1;
+  atimation-timing-function: ease-in;
+  transition: text-indent .5s; */
+}
+.animation {
+  background: none;
+  animation-name: scale;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
 
 @keyframes rainbow {
   /* 0% { background: black; } */
@@ -104,3 +138,20 @@ flex-direction: column;
   /* 90% {background: black; }
   100% {background: ghostwhite; } */
 }
+
+@keyframes scale {
+  0% {transform: scale(.2) rotate(7200deg)}
+  80% {transform: scale(.1) rotate(1448deg)}
+  100% {bakground: scale(.1)}
+}
+/* @-webkit-keyframes aitf {
+  0% { background-position: 0% 50%;}
+  100% {background-position: 100% 50%;}
+} */
+/* @keygrames glow {
+  0% { text-shadow: 0 0 10px red;}
+  15% {text-shadow: 2px 2px 10px red;}
+  30% {text-shadow: 4px 4px 40px red;}
+  50% {text-shadow: 20px 20px 80px red;}
+
+} */
