@@ -1,19 +1,49 @@
+body {
+/* display: flex; */
+background-color: lightgrey;
+background-size: cover;
+}
+
+
 h1 h2 h3{
   font-family: Montserrat;
   position: center;
+  display: inline;
 }
-h1 {
+/* .main-image img {
+  postion: relative;
+  display:block;
+} */
+.carousel-images img {
+  display: none;
+  /* background-size: cover; */
+}
+
+.headerText {
+text-align: center;
+color: red;
+text-shadow: 2px 1px black;
 
 }
 .container {
-  background-color: grey;
+display: flex;
+flex-direction: column;
+  /* background-color: lightgrey; */
+
 }
 /* form {
   position: absolute;
   color: pink;
   padding: 2px;
-
 } */
 .button1 {
-  position: absolute;
+  display: flex;
+  /* position: absolute; */
+  align-self: center;
+  align-content: center;
+
+  /* background-color: yellow; */
+  /* height: 30px; */
+  padding: 20px;
+  color: #c299ff;
 }
