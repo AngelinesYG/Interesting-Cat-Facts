@@ -7,17 +7,18 @@ max-width: 500px;
 align-content: center;
 }
 
-h1 h2 {
-  font-family: Montserrat;
+/* h1 h2 {
+  /* font-family: 'Train One', cursive; */
+  /* font-family: 'Fredericka the Great', cursive;
   font-size: 20vw;
   position: center;
   display: inline;
   text-transform: uppercase;
-  transform: translate(-50%, -50%) skew(10deg) rotate(-10deg);
-  text-rendering: optimizeLegibility;
-  font-weight: 900;
-  text-shadow: 1px 4px 6px $bg, 0 0 0 #66303a, 1px 4px 6px $bg;
-  white-space: nowrap;
+  /* transform: translate(-50%, -50%) skew(10deg) rotate(-10deg);
+  text-rendering: optimizeLegibility; */
+  /* font-weight: 900; */
+  /* text-shadow: 1px 4px 6px $bg, 0 0 0 #66303a, 1px 4px 6px $bg; */
+  /* white-space: nowrap;
   letter-spacing: 5em;
   display: inline-block;
   border-width: 4px 0;
@@ -27,11 +28,11 @@ h1 h2 {
   left: 50%;
   width: 40em;
   margin: 0;
-}
+} */
 
-h1 {
+/* h1 {
   fonst-size: 40px;
-}
+} */
 .carousel-images img {
   display: none;
   border-radius: 10px;
@@ -44,9 +45,20 @@ h1 {
 }
 
 .headerText {
+  /* font-family: 'Train One', cursive; */
+  font-family: 'Fredericka the Great';
   text-align: center;
   color: red;
   text-shadow: 2px 1px black;
+}
+h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  text-shadow: 2px 4px 6px;
+  text-rendering: optimizeLegibility;
+}
+h2 {
+  font-size: 32px;
 }
 /* span {
   font: 700 4em/1 "Montserrat"
@@ -117,6 +129,15 @@ h1 {
   animation-duration: 4s;
   animation-iteration-count: 1;
 }
+.animation img {
+  background: none;
+  animation-name: move;
+  /* animation-name: scale; */
+  animation-duration: alternate-reverse;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
 
 @keyframes rainbow {
   /* 0% { background: black; } */
@@ -150,6 +171,14 @@ h1 {
   0% {transform: scale(.2) rotate(7200deg)}
   80% {transform: scale(.1) rotate(1448deg)}
   100% {bakground: scale(.1)}
+}
+@keyframes move {
+  0% {background: left: 0%; top: 0%;}
+  25% {background: left: 75%; top: 0%;}
+  50% {background: left: 75%; top: 10em;}
+  75% {background: left: 0%; top: 10em;}
+  100% {background: left: 0px; top: 0px;}
+
 }
 /* @-webkit-keyframes aitf {
   0% { background-position: 0% 50%;}
