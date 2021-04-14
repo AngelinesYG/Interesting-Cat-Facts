@@ -130,13 +130,14 @@ h2 {
   animation-iteration-count: 1;
 }
 .animation img {
-  background: none;
+  /* transform: scaleX(-1); */
+  /* background: none;
   animation-name: move;
   /* animation-name: scale; */
-  animation-duration: alternate-reverse;
+  /* animation-duration: alternate-reverse;
   animation-timing-function: ease-in-out;
   animation-duration: 2s;
-  animation-iteration-count: 1;
+  animation-iteration-count: 1;  */
 }
 
 @keyframes rainbow {
@@ -178,7 +179,14 @@ h2 {
   50% {background: left: 75%; top: 10em;}
   75% {background: left: 0%; top: 10em;}
   100% {background: left: 0px; top: 0px;}
-
+}
+@keyframes flip-with-scale {
+  0%{transform: perspective(400px) scaleX(1);}
+  100% { transform: perspective(400px) scaleX(-1);}
+}
+@keyframes flip-with-rotate {
+  0% { transform: perspective(400px) rotateY(0);}
+  100% { transform: perspective(400px) rotateY(180deg);}
 }
 /* @-webkit-keyframes aitf {
   0% { background-position: 0% 50%;}

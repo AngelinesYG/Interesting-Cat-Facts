@@ -34,10 +34,16 @@ $(() => { //on load begins
             .css("display", "block");
 
         // for (let i = 0; i < data.length; i++) {
+        let currentFactIndex = 0
+        let lastFactIndex = $('.fact').length-1
           const randomNum = Math.floor(Math.random()* data.length)//this selects the data(text)randomly to display on the page.
           // const $getDataFact = $('<div>')//div holding value from data
           const $text = $('<p>').html(data[randomNum].text).addClass('fact') //this executes the above random fact to siplay the text and the addClass function overites or alternates with the above function that is set to remove fact, so that once removed it pushes the new fact.
-        //
+            if (currentFactIndex < lastFactIndex) {
+              currentFactIndex++;
+            } else {
+              currentFactIndex = 0;
+            }
           // $text.html(data[i].text)
           // $text.html(data[1].text)
           $data.append($text).css("font-size", "20px", "text-align","center") //appends data from API as text the the data functon.
