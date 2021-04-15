@@ -50,7 +50,7 @@ $(() => { //on load begins
           // $('body').append($data)//carousel to body
 
         // }//closing loop
-        $('.body1').prepend($data)//appends data to the body.
+        $('.body1').prepend($data)//appends data to the top of the body.
         console.log(data)
 
       },//closing data function
