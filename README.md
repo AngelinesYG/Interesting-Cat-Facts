@@ -2,31 +2,31 @@
 
 A README.md file with explanations of the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems, etc.
 
-<h1>APPROACH</h1>
+<h2>APPROACH</h2>
 
 1. Make it simple at first, then improve. I wanted to make it simple first. I started out with some sketches and ideas of what the app would look like physically and what it would do.
 2. Make it interesting and interactive: I still struggle a bit with jQuery and javascript. But I wanted to make something that had some type of fun user input. I was extremely afraid of not being able to complete this project. My struggles with jQuery and javascript sometimes overwhelm me. My classmates say they've seen improvement when helping me and they see that I understand and I'm able to speak of the code and know what it's doing (for the most part). But for some reason, when I get down to writing the code, my mind goes blank and forgets everything. It's extremely frustrating and discouraging. It definitely puts that Impostor syndrome on high gear.
 I know just clicking a button isn't much fun, but maybe clicking a spinning-color-changing button might be. lol. I did want to do a lot more with it, but began to run out of time as Mom duties began to increase and it would've taken me forever to figure it out... (more on this in the unsolved problems section.)
 3. Making sure it does what's intended, which is display the information from the API. The intention is that when the user clicks the button, it displays a cute or funny picture of a cat along with a fun fact. Thankfully I was able to accomplish this part and the family members that I sent it to in order to test it liked the fun facts.
 
-<h1>FUNCTIONALITY</h1>
+<h2>FUNCTIONALITY</h2>
 
 1. The app works by clicking on the button, which displays a random fact about cats each time it is clicked.
 2. The API for this app was obtain from the list given in the markdown. The direct link for it is: https://github.com/public-apis/public-apis under the Animals Index. It seems that this was an API created as a class project of some sort because it has only five facts. The API is:'https://cat-fact.herokuapp.com/facts'
 
-<h1>TECHNOLOGIES USED</h1>
+<h2>TECHNOLOGIES USED</h2>
 
 1. The technologies I used were W3school (I love the color picker here) to search for solutions when I got stuck with something. Things like the proper synthax for some jQuery and CSS comands, and how to work on the animations. Other sites were Codepen, Codeburst.io, and Youtube. Some of these were very helpful and others not so much. However, a lot of the things I wanted to do with my code, after trying the directions from these sites, didn't work, so I was back at square one.
 
-<h1>LINK TO LIVE SITE</h1>
+<h2>LINK TO LIVE SITE</h2>
 
 1. live site: Interesting Cat Facts: https://mystifying-villani-56eb1f.netlify.app
 
-<h1>INSTALLATION INSTRUCTIONS</h1>
+<h2>INSTALLATION INSTRUCTIONS</h2>
 
 1. There is nothing to install for this. You simply follow the link, press the button, and enjoy the funny and cute cat pictures and the facts. If you're a cat lover, you may find this very interesting.
 
-<h1>SOLVED PROBLEMS</h1>
+<h2>SOLVED PROBLEMS</h2>
 
 I had a few (somewhat) simple problems.
   1. The facts were displaying in the Dom all at once. This was solved using a randomNum loop.
@@ -35,7 +35,7 @@ I had a few (somewhat) simple problems.
   4. The font was not changing. This was solved by changing the div in HTML and targeting that specifically.  
   5. I felt like the page was super simple and needed some spice or something. I was happy that I was able to get the fonts and shadows to work on the letters and the spinning-color-changing color button. I was very happy that I was able to use emojis between the words. I didn't think that was possible and it gives the page some cuteness and spunk (I think).  
 
-<h1>UNSOLVED PROBLEMS</h1>
+<h2>UNSOLVED PROBLEMS</h2>
 
 1. The animations for the pictures were not displaying. I tried several methods on CSS with keyframes and searching online, but for some reason every time I tried something on the picture, it would remove the fact that is supposed to display along with it. I was able to get the pictures to spin, like the button, but that's not what I wanted because it would be too much. I wanted them to either slide or drop or slam into place... Maybe even spin out of place but not in place like the button does. But for some reason nothing I tried worked.
 
@@ -45,7 +45,7 @@ I had a few (somewhat) simple problems.
 
 4. I kind of ran out of time (as mentioned above) when mom duties increased. On the Saturday (second day of the project) one of my kids fell and we ended up in the ER and he had to get several stitches. He's 4 and I've had to follow up with his doctor during the week, as well as him being extra clingy and me constantly having to disinfect and care for the wound. As if that weren't enough, my babysitter had a case of bronchitis, so I had the baby with me for one whole day and was not able to do much that day. And today (day before presentation) my husband is in the ER with a bad case of pancreatitis. This is crazy. It's like a movie.
 
-<h1>ACCOMPLISHMENT</h1>
+<h2>ACCOMPLISHMENT</h2>
 
 I was actually proud of myself for not freaking out and getting down to business. I must admit that the day we were given the project I was very afraid and nearly panicking. I even teared up a bit. I don't know why I am struggling so much with getting my code down if I understand (mostly) the material, but I have been super frustrated that in order to do anything I need help or to look at a specific example. I feel like I should at least be able to get something started without looking at anything. For instance, I know when I need a function, I know when I need a look, I know when I need something to be random or to target an index or object, but for some reason when I have to write the code, it all gets discombobulated in my mind and I can't get it out. I am hoping it gets better.
 
