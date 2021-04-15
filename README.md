@@ -6,7 +6,7 @@ A README.md file with explanations of the technologies used, the approach taken,
 
 1. Make it simple at first, then improve. I wanted to make it simple first. I started out with some sketches and ideas of what the app would look like physically and what it would do.
 2. Make it interesting and interactive: I still struggle a bit with jQuery and javascript. But I wanted to make something that had some type of fun user input. I was extremely afraid of not being able to complete this project. My struggles with jQuery and javascript sometimes overwhelm me. My classmates say they've seen improvement when helping me and they see that I understand and I'm able to speak of the code and know what it's doing (for the most part). But for some reason, when I get down to writing the code, my mind goes blank and forgets everything. It's extremely frustrating and discouraging. It definitely puts that Impostor syndrome on high gear.
-I know just clicking a button isn't much fun, but maybe clicking a spinning-color-changing button might be. lol. I did want to do a lot more with it, but began to run out of time as Mom duties began to increase and it would've taken me forever to figure it out... (more on this in the unsolved problems section.)
+I know just clicking a button isn't much fun, but maybe clicking a spinning-color-changing button might be. lol. I did want to do a lot more with it, but began to run out of time as Mom duties began to increase and it would've taken me forever to figure it out.
 3. Making sure it does what's intended, which is display the information from the API. The intention is that when the user clicks the button, it displays a cute or funny picture of a cat along with a fun fact. Thankfully I was able to accomplish this part and the family members that I sent it to in order to test it liked the fun facts.
 
 <h2>FUNCTIONALITY</h2>
@@ -43,7 +43,7 @@ I had a few (somewhat) simple problems.
 
 3. I really wanted to make the button redirect within the same page to display the pictures and facts. Like rather than the user having to scroll down to see the picture and fact, I wanted the button to make the picture and fact come at the top of the page, in place of the original opening text. Everything I found online were instructions for redirecting to a new page or another url, but nothing to make it the way I wanted it. I just couldn't figure this one out. I really wanted to.
 
-4. I kind of ran out of time (as mentioned above) when mom duties increased. On the Saturday (second day of the project) one of my kids fell and we ended up in the ER and he had to get several stitches. He's 4 and I've had to follow up with his doctor during the week, as well as him being extra clingy and me constantly having to disinfect and care for the wound. As if that weren't enough, my babysitter had a case of bronchitis, so I had the baby with me for one whole day and was not able to do much that day. And today (day before presentation) my husband is in the ER with a bad case of pancreatitis. This is crazy. It's like a movie.
+4. I kind of ran out of time (as mentioned above) when mom duties increased. On the Saturday (second day of the project) one of my kids fell and we ended up in the ER and he had to get several stitches. He's 4 and I've had to follow up with his doctor during the week, among other unexpected circumstances. It's like a movie.
 
 <h2>ACCOMPLISHMENT</h2>
 
